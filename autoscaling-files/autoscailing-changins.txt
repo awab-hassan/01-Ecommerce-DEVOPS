@@ -1,0 +1,22 @@
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/autoscaler/master/cluster-autos
+caler/cloudprovider/aws/examples/cluster-autoscaler-autodiscover.yaml
+
+
+Go to kube-system cluster-autoscaler and edit the deployment
+
+cluster-autoscaler.kubernetes.io/safe-to-evict: "false"
+
+Change name in line 50
+
+add afterwards
+
+    - --balance-similiar-node-groups
+	- --skip-nodes-with-system-pods=false
+
+Change version to 1.23.1
+
+set min and max size
+
+for link:
+
+https://github.com/kubernetes/autoscaler/tags?after=cluster-autoscaler-chart-9.19.4

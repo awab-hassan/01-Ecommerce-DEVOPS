@@ -1,0 +1,15 @@
+wordpress image first:
+t3a.small
+ami-0166a6282f08db997
+
+wordpress image second Lite speed:
+t2.micro
+ami-097344441c93a43a8
+
+wordpress image third AMI (Expensive):
+c5.large
+ami-06dcd90ae27b13ace
+
+wordpress fourth image:
+t3a.small
+ami-0000b8a26b257150a
