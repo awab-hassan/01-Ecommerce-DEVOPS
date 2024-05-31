@@ -1,6 +1,6 @@
 # Project #1 - Ecommerce Application Deployment On EKS
 
-Project Description: Client wanted me to deploy an EKS cluster with Terraform and then deploy Ecommerce Application on EKS cluster with autoscalling and configure AWS RDS Database.
+Project Description: Client asked me to deploy an EKS cluster with using Terraform. After the cluster creation He asked me to deploy his E-Commerce Java Application with autoscalling and AWS RDS MYSQL Database configured.
 
 Solution:
 - I dockerized an E-commerce Java Application.
